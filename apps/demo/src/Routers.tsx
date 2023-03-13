@@ -20,6 +20,9 @@ const routes = (childrenRoutes: RouteObject[]) => {
         children: childrenRoutes,
       },
     ],
+    {
+      basename: "/test-deploy",
+    }
   );
 };
 
